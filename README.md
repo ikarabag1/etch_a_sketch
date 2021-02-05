@@ -33,27 +33,4 @@ Attach a click listener to the Clear Screen button. When clicked, this button sh
 - Tools: `document.querySelectorAll`, `<anyDomElement>.classList.remove`
 
 ### Step 5: celebrate your success! :cake: :tada: :gift:
-Play with your new etch-a-sketch for 
-
-# Part 2: Tabbed interface
-![Finished Tabbed Interface](assets/tabs-finished-product.gif)
-
-You are probably already familiar with tabbed interfaces from google chrome, or even VScode. Like the etch-a-sketch, start off by exploring the existing code in index.html, index.js, and style.css. Like the etch-a-sketch, you should mostly be adding code to index.js, but if you think something is missing from the other files you can add it.
-
-### Step 1: just make a single tab work
-Tab 1 begins as active. Let's start by just making Tab 2 functional, nothing more. Here are some steps to this process:
-- Detect a click on Tab 2
-- Deactivate the tab that's currently active
-- Make tab 2 active
-- Deactivate the content that's currently active
-- Make content 2 active
-
-### Step 2: making all the tabs work
-To make all the tabs work, we have to extend the functionality to the other tabs. Should we do it manually (ie write out a separate event handler for each tab), or programatically(ie in a loop)?
-
-The loop is definitely where we want to end up, but it's possible that doing it manually first will help you see the pattern, and it's a decent way to just get started if you feel stuck. So either way is ok, as long as we end at the loop implementation.
-
-One brain-buster is: once we have identified a click on a tab, how do we figure out which content we need to activate?
-
-### Step 3: test for edge cases
-What should happen if you click on the tab that's already active? If you click on a tab that was previously active? Try to break your creation!
+Play with your new etch-a-sketch!

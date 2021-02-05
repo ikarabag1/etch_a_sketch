@@ -4,16 +4,17 @@ const clearBtn = document.querySelector('#clear-screen-button')
 
 /* Functions and Game Logic */
 const initialize = () => {
-    fill();
-}
-
-const fill = () => {
     for(let i = 0; i < 9000; i++) {
-        let div = document.createElement('div');
-        div.classList.add('pixel')
-        div.addEventListener('mouseenter', shadePixel);
+        let div = createPixel();
         screen.appendChild(div);
     }
+}
+
+const createPixel = () => {
+    let div = document.createElement('div');
+    div.classList.add('pixel')
+    div.addEventListener('mouseenter', shadePixel);
+    return div;
 }
 
 const shadePixel = event => {

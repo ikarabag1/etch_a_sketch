@@ -1,3 +1,4 @@
+#### ![General Assembly Logo](http://i.imgur.com/ke8USTq.png) 
 # Etch-a-sketch
 ### Topics
 - selecting DOM elements with query selectors
